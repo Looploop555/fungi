@@ -44,7 +44,7 @@ def save_csv(result, save_path):
         f.write("\n".join(line))
 
 
-def load_dinov2(model_path='/models/Dinov2G', device='cuda'):
+def load_dinov2(model_path='/data/models/Dinov2G', device='cuda'):
     processor = AutoImageProcessor.from_pretrained(model_path)
     model = AutoModel.from_pretrained(model_path, device_map="auto", ignore_mismatched_sizes=True).to(device)
     return model, processor
