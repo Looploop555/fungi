@@ -1,5 +1,4 @@
-# 1. 处理CSV
-# 2. 合并数据格式
+
 
 import os
 import csv
