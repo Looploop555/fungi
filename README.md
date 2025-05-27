@@ -1,9 +1,11 @@
-# FungiCLEF 2024 Competition Pipeline
+
+
 
 ## 1. Data Processing
 Preprocess the data into required format:
 ```bash
 python process_data.py
+
 
 ## 2. Feature Extraction
 Extract image features using DINOv2 model:
