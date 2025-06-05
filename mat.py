@@ -102,4 +102,4 @@ if __name__ == "__main__":
     test_features = get_feature(feature_path="/data/new/test_feature.pkl")
 
     result = mattching(test_features, catgory_features, topk=10)
-    save_csv(result, "/data/FUNGI.csv")
+    save_csv(result, "/data/final_submit.csv")
